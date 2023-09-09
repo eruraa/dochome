@@ -1,0 +1,24 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+   
+}
+   
+
+
+.header{
+    background-color:#FFEB9C ;
+    height:55px;
+    display:flex;
+}
+
+.about{
+    padding-left: 70rem ;
+}
+
+.status{
+    padding-right: 20rem;
+    display: flex;
+}
+

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/style2.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div style="position: relative;right:80px;">
+        <img class="img" src="./image.png" />
+    </div>
+
+    <div class="yellow">
+        <img class="icon" src="./imageho.png" />
+        <p class="iconnm">Doc-home</p>
+        <p class="jn">JOIN</p>
+        <p class="now">NOW!</p>
+        <div style="position: relative;right:80px;">
+            <div class="iheart">
+                <img class="heart" src="join.png" />
+            </div>
+        </div>
+    </div>
+
+    <div class="cream">
+        <p class="reg">Register</p>
+        <div style="position: relative;right:80px;">
+            <div class="line">
+                <hr>
+            </div>
+        </div>
+
+
+
+        <div class="details">
+            <form action="/ids" method="POST">
+              <div class="row">
+                <div class="column">
+                  <label for="fullname">Full Name</label>
+                  <input type="text" id="fullname" placeholder="Enter your name"
+                  name="fullname" />
+                </div>
+                <div class="column">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" placeholder="Enter your email"
+                  name="email" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="column">
+                  <label for="gender">Gender</label>
+                  <select id="gender" name="gender">
+                    <option value="" disabled selected hidden>Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="others">Others</option>
+                    
+                  </select>
+                </div>
+                <div class="column">
+                  <label for="dob">Date of Birth</label>
+                  <input type="date" id="dob" placeholder="Date of birth" 
+                  name="dateofbirth"/>
+                </div>
+              </div>
+              
+                <div class="row">
+                    <div class="column">
+                      <label for="password">Password</label>
+                      <input type="password" id="password" placeholder="Enter your password"
+                      name="password" />
+                    </div>
+                <div class="column">
+                  <label for="confirmpassword">Confirm Password</label>
+                  <input type="password" id="confirmpassword" placeholder="Enter your password" 
+                  name="confirmpassword"/>
+                </div>
+              </div>
+              
+             <button type="submit" class="but">Sign in</button>
+             
+            </form>
+             
+        <div>
+            <p class="acc">Already have an account?</p>
+            <a href="register.hbs">login</a>
+        </div>
+            
+          </div>
+  </div>
+</body>
+
+</html>

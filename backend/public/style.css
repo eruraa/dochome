@@ -1,0 +1,154 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+   
+}
+.img{
+    position: relative;
+ width: 107%;
+ height: 600px;
+ padding-top: 40px;
+ rotate:-7deg;
+ z-index:0;
+}
+
+.yellow{
+    background-color:#FDF8E9;
+    width:26%;
+    height: 50%;
+    top:150px;
+    z-index: 1;
+    left:100px;
+    border-radius: 10%;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    left: 250px;
+    top:200px;
+    
+    
+}
+.icon{
+    position: absolute;
+    height: 40px;
+    width: 50px;
+    left:10px;
+z-index: 1;
+top:10px;
+}
+
+.iconnm{
+    top:3px;
+    position: absolute;
+    z-index: 1;
+    left:65px;
+    font-family: 'Agdasima', sans-serif;
+    font-size:20px;
+}
+
+.lgn{
+margin-top: 2%;
+    position: absolute;
+    font-size:40px ;
+    left: 60px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.wlcm{
+    font-size: 15px;
+    margin-top: 15%;
+    margin-left: 32%;
+    font-family: 'Raleway', sans-serif;
+    
+    
+}
+#content1{
+    margin-top: 25px;
+   
+}
+
+#content2{
+    margin-top: 40px;
+    
+}
+
+#content1,#content2{
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 30px;
+}
+.mail{
+    background-color:#F9EEC3 ;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    width: 325px;
+    margin-left:25px ;
+    height: 40px;
+    margin-top: 5px;
+
+}
+
+.pass{
+    background-color:#F9EEC3 ;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    width: 325px;
+    margin-left: 25px;
+    height: 40px;
+    margin-top: 1%;
+
+
+}
+
+
+.but{
+    margin-top: 25px;
+    margin-left: 40%;
+    background-color: #FFEB9C;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    height: 30px;
+    font-size:20px;
+    font-weight: 300;
+    ;
+}
+
+.no{
+    font-family: 'Raleway', sans-serif;
+    z-index: 1;
+    position: absolute;
+   padding-left: 50%;
+   top: 230px;
+   font-size: 60px;
+   
+    
+}
+
+.register{
+    top: 400px;
+    z-index: 1;
+    position: absolute;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    width: 270px;
+    height: 45px;
+    font-size:25px ;
+    background-color:#FFEB9C ;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    left: 950px;
+    font-weight: bold;
+    color: black;
+    
+    
+}
